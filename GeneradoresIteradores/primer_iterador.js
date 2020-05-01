@@ -1,5 +1,7 @@
-const desktop = document.querySelector('.desktop');
-const printOnDesktop = value => desktop.innerHTML += value + '<br>';
+const printOnDesktop = value => {
+    const desktop = document.querySelector('.desktop');
+    desktop.innerHTML += value + '<br>';
+}
 
 
 
@@ -29,3 +31,5 @@ while (!item.done) {
     item = primerIterador.next();
 
 }
+
+export default primerIterador;
