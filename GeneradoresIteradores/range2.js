@@ -1,11 +1,6 @@
-const printOnDesktop = value => {
-    const desktop = document.querySelector('.desktop');
-    desktop.innerHTML += value + '<br>';
-}
-
 // Implementacion de estructura rango usando iterables y generadores y for of
 
-let range = {
+export const range2 = {
     min: null,
     max: null,
     [Symbol.iterator]() {
@@ -17,8 +12,3 @@ let range = {
         }
     }
 }
-
-range.min = 1;
-range.max = 5;
-
-for (n of range) printOnDesktop(n);

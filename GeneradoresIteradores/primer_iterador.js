@@ -1,7 +1,4 @@
-const printOnDesktop = value => {
-    const desktop = document.querySelector('.desktop');
-    desktop.innerHTML += value + '<br>';
-}
+import printOnDesktop from '../Modulos/print.js';
 
 
 
