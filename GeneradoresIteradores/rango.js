@@ -3,7 +3,7 @@ const printOnDesktop = value => {
     desktop.innerHTML += value + '<br>';
 }
 
-// Implementacion de estructura rango usando iterables, generadores y for of
+// Implementacion de estructura rango usando iterables y for of
 
 let range = {
     min: null,
